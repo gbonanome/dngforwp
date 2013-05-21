@@ -1,4 +1,7 @@
-dngforwp
+DiscoveryNG for Wordpress (dngforwp)
 ========
 
-A littel Wordpress plugin to better interact with DiscoveryNG
+A little Wordpress plugin to better interact with DiscoveryNG. 
+
+It provide:
+  * a shortcode to embed catalog's titles
