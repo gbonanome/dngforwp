@@ -1,3 +1,9 @@
+<?php
+/**
+ * @package dngforwp
+ * @version 0.1
+ */
+
 // Add Shortcode
 function dng_shortcode( $atts ) {
 
@@ -21,3 +27,5 @@ function dng_shortcode( $atts ) {
 
 }
 add_shortcode( 'dng', 'dng_shortcode' );
+
+?>
