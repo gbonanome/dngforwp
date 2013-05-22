@@ -23,8 +23,11 @@ function dng_shortcode( $atts ) {
 	);
 
 	// Code
+
+	$src = str_replace('/view/','/badge/',$url);
+
 	return '<iframe 
-			src="' . $url .'&showabstract=' . $showabstract .'&coversize=' . $coversize .'"
+			src="' . $src .'&showabstract=' . $showabstract .'&coversize=' . $coversize .'"
 			width="' . $width . '"
 			height="' . $height . '"
 			frameborder="0"></iframe>';
