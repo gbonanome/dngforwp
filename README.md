@@ -12,7 +12,7 @@ Shortcode
 
 The shortcode is self-closing and must have the OPAC url for the title. An example is:
 
-[dng url=http://dngtest.comperio.it/opac/detail/view/test:catalog:1088951]
+`[dng url=http://dngtest.comperio.it/opac/detail/view/test:catalog:1088951]`
 
 Here are the attributes you can use:
 
