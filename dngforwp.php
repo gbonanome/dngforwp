@@ -26,11 +26,7 @@ function dng_shortcode( $atts ) {
 
 	$src = str_replace('/view/','/badge/',$url);
 
-	return '<iframe 
-			src="' . $src .'&showabstract=' . $showabstract .'&coversize=' . $coversize .'"
-			width="' . $width . '"
-			height="' . $height . '"
-			frameborder="0"></iframe>';
+	return '<iframe src="' . $src .'&showabstract=' . $showabstract .'&coversize=' . $coversize .'"	width="' . $width . '" height="' . $height . '"	frameborder="0"></iframe>';
 
 }
 add_shortcode( 'dng', 'dng_shortcode' );
