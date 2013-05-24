@@ -21,3 +21,13 @@ Here are the attributes you can use:
  * **height**, for the iframe width (default is *300px*)
  * **coversize**, for the size of the cover. Options are: small, normal, large (default is *normal*)
  * **showabstract**, *1* is default and show the abstract (if exist), *0* to not show the abstract
+
+
+Installation
+---------
+
+Download this repository. 
+Rename to 'dngforwp' your .zip file and the zipped folder it contains. 
+Upload to your wodpress plugin section.
+
+P.S. the folder and the .zip must have the same plugin name (dngforwp)
